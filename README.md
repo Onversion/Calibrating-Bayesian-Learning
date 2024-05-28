@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/torrvision/focal_calibration/blob/main/LICENSE)
 
 This repository contains the code for [*Calibrating Bayesian Learning via Regularization, Confidence Minimization, and
-Selective Inference*](https://arxiv.org/abs/2002.09437), some elements still in progress.
+Selective Inference*](https://arxiv.org/pdf/2404.11350), some elements still in progress.
 
 If the code or the paper has been useful in your research, please add a citation to our work:
 
@@ -20,7 +20,7 @@ If the code or the paper has been useful in your research, please add a citation
 
 ## Summary
 ![Selective Classification Model Workflow](overview.jpg)
-Figure 1: (a) Standard *frequentist neural networks* (FNNs) generally fail to provide well-calibrated decisions, and improved *in-distribution* (ID) calibration can be achieved via *Bayesian neural networks* (BNNs). (b)* Calibration regularization *improves ID calibration via a regularizer that penalizes calibration errors. (c)* Out-of-distribution confidence minimization *(OCM) injects OOD examples during training to improve OOD detection. (d)* Selective calibration *further improves both ID and OOD calibration by only producing decisions for inputs at which uncertainty quantification is deemed to be sufficiently reliable. Prior works introduced calibration regularization, OCM, and selective calibration as separate methods for FNNs, while this work presents an integrated approach encompassing all three solutions for BNNs.
+Figure 1: (a) Standard *frequentist neural networks* (FNNs) generally fail to provide well-calibrated decisions, and improved *in-distribution* (ID) calibration can be achieved via *Bayesian neural networks* (BNNs). (b) *Calibration regularization* improves ID calibration via a regularizer that penalizes calibration errors. (c) *Out-of-distribution confidence minimization* (OCM) injects OOD examples during training to improve OOD detection. (d) *Selective calibration* further improves both ID and OOD calibration by only producing decisions for inputs at which uncertainty quantification is deemed to be sufficiently reliable. Prior works introduced calibration regularization, OCM, and selective calibration as separate methods for FNNs, while this work presents an integrated approach encompassing all three solutions for BNNs.
 
 
 ## Dependencies
